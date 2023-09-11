@@ -7,6 +7,29 @@
 #wp-webauthn-check {
     display: none!important;
 }
+#wp-webauthn .dashicons-update-alt::before {
+  content: "\f113";
+  color: #fff;
+}
+#wp-webauthn, #wp-webauthn-check {
+  background: #337ab7;
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.3333333;
+  border-radius: 3px;
+  border-color: #337ab7;
+}
+#wp-webauthn .dashicons-update-alt {
+  font-family: dashicons;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  text-align: center;
+}
 .wp-webauthn-notice {
     font-size: 18px;
     text-align: center;
